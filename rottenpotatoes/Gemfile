@@ -27,9 +27,8 @@ group :production do
 	gem 'rails', '4.1.6'
   # Use sqlite3 as the database for Active Record
  #  gem 'sqlite3', group: :development # Added development group.
-     gem 'pg', group: :production # Added postgres and made it production only.
+ gem 'pg', group: :production # Added postgres and made it production only.
 #
-     gem 'sass-rails', '~> 4.0.3'
 end
 
 # Gems used only for assets and not required
