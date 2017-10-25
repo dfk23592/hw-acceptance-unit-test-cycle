@@ -22,8 +22,8 @@ group :test do
   gem 'cucumber-rails-training-wheels'
 end
 group :production do
-  gem 'pg'
-  gem 'rails_12factor', '0.0.2'
+  gem 'pg' # for Heroku deployment
+  gem 'rails_12factor'
 end
 
 # Gems used only for assets and not required
